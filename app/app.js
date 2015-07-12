@@ -1,6 +1,7 @@
 (function() {
 	angular.module('dory', [
 		'ui.router', 
-		'ngAnimate'
+		'ngAnimate',
+		'dory.top.nav'
 		]);
 })();
