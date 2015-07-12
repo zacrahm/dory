@@ -1,9 +1,17 @@
-body { padding-top: 100px; }
+body { padding-top: 128px; }
 
 html, body, .container-fluid, .row {
 	height: 100%;
 }
 
+.main-container {
+	min-height: 100%;
+}
+
+.no-padding {
+	padding: 0 !important;
+   margin: 0 !important;
+}
 .navbar-brand
 {
    
