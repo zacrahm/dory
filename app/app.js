@@ -3,6 +3,7 @@
 		'ui.router', 
 		'ngAnimate',
 		'dory.top.nav',
-		'dory.left.nav'
+		'dory.left.nav',
+		'dory.right.nav'
 		]);
 })();
