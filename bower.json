@@ -1,0 +1,26 @@
+{
+  "name": "dory",
+  "version": "0.0.0",
+  "authors": [
+    "Zac Rahm <zacrahm@vt.edu>"
+  ],
+  "description": "Alternative NEMO UI",
+  "main": "index.html",
+  "license": "Apache 2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-animate": "~1.4.2",
+    "angular-mocks": "~1.4.2",
+    "angular-ui-router": "~0.2.15",
+    "lodash": "~3.10.0"
+  },
+  "dependencies": {
+    
+  }
+}

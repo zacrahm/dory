@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="dory">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Network Device Manager</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+ 	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="text-center"><a class="navbar-brand" href="#">Network Device Manager</a></div>
+			</div>
+			<!-- <div class="row"> -->
+			
+		<ul class="nav navbar-nav navbar-left">
+        <li><a href="#"><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+      	<li><a href="#"><i class="glyphicon glyphicon-chevron-right"></i></a></li>
+    </ul>
+    <div class="navbar-form navbar-left">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+    <ul class="nav navbar-nav navbar-right">
+		<li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">username<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Preferences</a></li>
+            <li><a href="#">Help</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Log Out Everywhere</a></li>
+          </ul>
+        </li>
+ 	</ul>
+			
+	</div>
+   
+   
+</nav>
+	
+<div class="container-fluid">
+	<div class="row">
+    <div class="col-sm-3" style="background: green;">
+      Sidebar
+    </div>
+    
+    <div class="col-sm-6" style="background: black;">
+      Main Content
+    </div>
+    
+    <div class="col-sm-3" style="background: blue;">
+      Sidebar
+    </div>
+</div>
+  </div>
+</div>
+  
+
+    <script src="dist/vendor.js"></script>
+    <script src="dist/dory.0.0.0.js"></script>    
+</body>
+
+</html>

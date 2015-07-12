@@ -1,0 +1,14 @@
+body { padding-top: 50px; }
+
+html, body, .container-fluid, .row {
+	height: 100%;
+}
+
+.navbar-brand
+{
+   
+    width: 100%;
+   
+    text-align: center;
+    margin: auto;
+}
